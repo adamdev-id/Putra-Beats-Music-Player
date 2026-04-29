@@ -1,7 +1,7 @@
 # Putra Beats
 
 <p align="center">
-  <img src="YOUR_LOGO_URL_HERE" alt="Putra Beats Logo" width="180" />
+  <img src="https://adamputra-bucket-demo.s3.ap-southeast-1.amazonaws.com/putrabeats.png" alt="Putra Beats Logo" width="180" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 <p align="center">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white">
   <img alt="discord.js" src="https://img.shields.io/badge/discord.js-v14-5865F2?logo=discord&logoColor=white">
-  <img alt="License" src="https://img.shields.io/badge/License-ISC-blue.svg">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
   <img alt="Status" src="https://img.shields.io/badge/status-active-success">
 </p>
 
