@@ -129,7 +129,7 @@ The embedded player includes interactive controls:
 ### 1. Clone the project
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/adamdev-id/Putra-Beats-Music-Player.git
 cd ytdlp
 ```
 
