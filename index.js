@@ -50,12 +50,22 @@ const FILTERS = {
 // ================= YT-DLP =================
 
 function getYtdlpBaseOptions() {
-  return {
+  const options = {
     noWarnings: true,
     jsRuntimes: 'node',
     remoteComponents: 'ejs:github',
     extractorArgs: 'youtube:player_client=web_embedded,web_safari'
   };
+
+  if (process.env.YTDLP_COOKIES_FILE) {
+    options.cookies = process.env.YTDLP_COOKIES_FILE;
+  }
+
+  if (process.env.YTDLP_USER_AGENT) {
+    options.userAgent = process.env.YTDLP_USER_AGENT;
+  }
+
+  return options;
 }
 
 function formatAudioLabel(format) {
