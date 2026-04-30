@@ -1,4 +1,4 @@
-# Putra Beats
+# Putra Beats (Windows Server Version)
 
 <p align="center">
   <img src="https://adamputra-bucket-demo.s3.ap-southeast-1.amazonaws.com/putrabeats.png" alt="Putra Beats Logo" />
